@@ -36,7 +36,7 @@ QtUsersJp {
                     Div {
                         _class: 'row'
                         Repeater {
-                            model: EventModel { condition: 'starts_at > ?'; arguments: [new Date]; Component.onCompleted: update() }
+                            model: EventModel { condition: 'ends_at > ?'; arguments: [new Date]; Component.onCompleted: update() }
                             Component {
                                 Div {
                                     _class: '12u$'
@@ -95,7 +95,7 @@ QtUsersJp {
                         _class: 'row uniform'
 
                         Repeater {
-                            model: EventModel { condition: 'starts_at < ?'; arguments: [new Date]; Component.onCompleted: update() }
+                            model: EventModel { condition: 'ends_at < ?'; arguments: [new Date]; Component.onCompleted: update() }
                             Component {
                                 Div {
                                     _class: model.index % 2 === 0 ? '6u' : '6u$'

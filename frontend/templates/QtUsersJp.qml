@@ -340,7 +340,7 @@ Html {
                         }
 
                         Repeater {
-                            model: EventModel { id: eventModel; condition: 'starts_at > ?'; arguments: [new Date]; Component.onCompleted: update() }
+                            model: EventModel { id: eventModel; condition: 'ends_at > ?'; arguments: [new Date]; Component.onCompleted: update() }
                             Component {
                                 BlockQuote {
                                     H4 {
