@@ -9,6 +9,7 @@ QtObject {
         interval: 60 * 1000
         repeat: true
         running: true
+        triggeredOnStart: true
         onTriggered: retrieve()
     }
 
