@@ -1,8 +1,8 @@
 {
     "listen": { "address": "*", "port": 8008 }
-    , "contents": { "*": "/home/tasuku/jp/qt-users/www/frontend/" }
-    , "storage": { "path": "/home/tasuku/jp/qt-users/www/database/" }
-    , "silk": { "tasks": [ "/home/tasuku/jp/qt-users/www/backend/events/events_backend.qml" ] }
+    , "contents": { "*": "/home/silk/jp/qt-users/www/frontend/" }
+    , "storage": { "path": "/home/silk/jp/qt-users/www/database/" }
+    , "silk": { "tasks": [ "/home/silk/jp/qt-users/www/backend/events/events_backend.qml" ] }
     , "cache": { "qml": true }
     , "deflate": { "excludes": ["video/*"] }
 }
