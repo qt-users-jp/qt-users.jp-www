@@ -134,7 +134,7 @@ QtUsersJp {
                             Div { _class: '4u'; Span { I { _class: 'fa fa-android fa-fw' } Text { text: 'Android' } } }
                             Div { _class: '4u'; Span { I { _class: 'fa fa-apple fa-fw' } Text { text: 'iOS' } } }
                             Div { _class: '4u'; Span { I { _class: 'fa fa-windows fa-fw' } Text { text: 'WinRT' } } }
-                            Div { _class: '6u'; Span { I { _class: 'fa fa-mobile fa-fw' } Text { text: 'Blackberry 10' } } }
+                            Div { _class: '6u'; Span { I { _class: 'fa fa-mobile fa-fw' } Text { text: 'Ubuntu Touch' } } }
                             Div { _class: '6u$'; Span { I { _class: 'fa fa-mobile fa-fw' } Text { text: 'Sailfish OS' } } }
                         }
                     }
