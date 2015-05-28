@@ -189,6 +189,14 @@ Html {
                                     Text { text: 'Qt Quick アプリケーション開発' }
                                 }
                             }
+                            Li {
+                                A {
+                                    href: '/qt-related-books.qml'
+                                    I { _class: 'fa fa-book fa-fw' }
+                                    Nbsp {}
+                                    Text { text: 'Qt関連の書籍' }
+                                }
+                            }
                         }
                     }
                     Li {
