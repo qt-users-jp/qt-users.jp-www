@@ -4,6 +4,7 @@ import QtQml 2.2
 import QtQml.Models 2.1
 import 'templates'
 import 'utils'
+import 'qt-in-use'
 
 QtUsersJp {
     Head {
@@ -161,84 +162,9 @@ QtUsersJp {
                         Div {
                             _class: 'row 50% uniform'
                             Repeater {
-                                model: ListModel {
-                                    ListElement {
-                                        title: 'Skype for Linux'
-                                        href: 'skype-for-linux'
-                                        image: 'skype-logo.png'
-                                    }
-                                    ListElement {
-                                        title: 'Google Earth'
-                                        href: 'google-earth'
-                                        image: 'google-earth.png'
-                                    }
-                                    ListElement {
-                                        title: 'mozc'
-                                        href: 'mozc'
-                                        image: 'mozc.png'
-                                    }
-                                    ListElement {
-                                        title: 'VoltAir'
-                                        href: 'voltair'
-                                        image: 'voltair.png'
-                                    }
-                                    ListElement {
-                                        title: 'VirtualBox'
-                                        href: 'virtualbox'
-                                        image: 'virtualbox.png'
-                                    }
-                                    ListElement {
-                                        title: 'FireAlpaca'
-                                        href: 'firealpaca'
-                                        image: 'firealpaca.png'
-                                    }
-                                    ListElement {
-                                        title: 'MuseScore'
-                                        href: 'musescore'
-                                        image: 'musescore.png'
-                                    }
-                                    ListElement {
-                                        title: 'QGIS'
-                                        href: 'qgis'
-                                        image: 'qgis.png'
-                                    }
-                                    ListElement {
-                                        title: 'VLC'
-                                        href: 'vlc'
-                                        image: 'vlc.jpg'
-                                    }
-                                    ListElement {
-                                        title: 'Wireshark'
-                                        href: 'wireshark'
-                                        image: 'wireshark.png'
-                                    }
-                                    ListElement {
-                                        title: 'KDE'
-                                        href: 'kde'
-                                        image: 'kde.png'
-                                    }
-                                    ListElement {
-                                        title: 'ZAURUS'
-                                        href: 'zaurus'
-                                        image: 'sharp-zaurus.jpg'
-                                    }
-                                }
-
+                                model: SummaryListModel { }
                                 Component {
-                                    Div {
-                                        _class: '3u%1 6u%2(768)'.arg(model.index % 4 == 3 ? '$' : '').arg(model.index % 2 == 1 ? '$' : '')
-                                        A {
-                                            href: '/qt-in-use/%1.qml'.arg(model.href)
-                                            title: model.title
-                                            Span {
-                                                _class: 'image fit'
-                                                Img {
-                                                    src: '/images/qt-in-use/%1'.arg(model.image)
-                                                    alt: model.title
-                                                }
-                                            }
-                                        }
-                                    }
+                                    QtInUseItem {}
                                 }
                             }
                         }

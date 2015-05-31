@@ -77,7 +77,7 @@ Html {
                                 Ul {
                                     Li {
                                         A {
-                                            href: '/qt-in-use/desktop.qml'
+                                            href: '/qt-in-use/index.qml#desktop'
                                             I { _class: 'fa fa-desktop fa-fw' }
                                             Nbsp {}
                                             Text { text: 'デスクトップ系' }
@@ -85,7 +85,7 @@ Html {
                                     }
                                     Li {
                                         A {
-                                            href: '/qt-in-use/mobile.qml'
+                                            href: '/qt-in-use/index.qml#mobile'
                                             I { _class: 'fa fa-mobile fa-fw' }
                                             Nbsp {}
                                             Text { text: 'モバイル系' }
@@ -93,7 +93,7 @@ Html {
                                     }
                                     Li {
                                         A {
-                                            href: '/qt-in-use/embedded-device.qml'
+                                            href: '/qt-in-use/index.qml#embedded'
                                             I { _class: 'fa fa-tablet fa-rotate-90 fa-fw' }
                                             Nbsp {}
                                             Text { text: '組み込み系' }
