@@ -106,7 +106,7 @@ QtUsersJp {
                             _class: '12u$'
                             A {
                                 _class: 'button alt big fit'
-                                href: '/install.qml'
+                                href: '/qt-cpp/'
                                 text: 'Qt/C++ アプリケーション開発'
                             }
                         }
@@ -120,7 +120,7 @@ QtUsersJp {
                             _class: '12u$'
                             A {
                                 _class: 'button alt big fit'
-                                href: '/install.qml'
+                                href: '/qt-quick/'
                                 text: 'Qt Quick アプリケーション開発'
                             }
                         }
