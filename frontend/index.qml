@@ -5,6 +5,7 @@ import QtQml.Models 2.1
 import 'templates'
 import 'utils'
 import 'qt-in-use'
+import 'qt-related-books'
 
 QtUsersJp {
     Head {
@@ -165,6 +166,23 @@ QtUsersJp {
                                 model: SummaryListModel { }
                                 Component {
                                     QtInUseItem {}
+                                }
+                            }
+                        }
+                    }
+                }
+                Div {
+                    _class: '12u$ 6u$(1024) 12u$(768)'
+
+                    H2 { text: 'Qt関連の書籍' }
+                    Div {
+                        _class: 'box alt'
+                        Div {
+                            _class: 'row 50% uniform'
+                            Repeater {
+                                model: QRBSummaryModel {}
+                                Component {
+                                    QRBItem {}
                                 }
                             }
                         }
