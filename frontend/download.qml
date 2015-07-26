@@ -52,7 +52,7 @@ QtUsersJp {
                         I { _class: 'fa fa-jpy fa-fw' }
                         Text { text: 'コマーシャル版に関する問い合わせ' }
                     }
-                    P { text: '以下の日本国内の代理店へお問い合わせください' }
+                    P { text: '以下の日本国内の代理店へお問い合わせください。' }
                     Div {
                         _class: 'row'
                         Div {
@@ -93,6 +93,90 @@ E-mail ： <a href="mailto:qt-sales@sra.co.jp">qt-sales@sra.co.jp</a>'
 株式会社アイ・エス・ビー　営業企画部<br />
 email :<a href="mailto:proservices@isb.co.jp">proservices@isb.co.jp</a>'
                                 }
+                            }
+                        }
+                    }
+                    H2 {
+                        _id: 'qt-for-application-development'
+                        I { _class: 'fa fa-cubes fa-fw' }
+                        A {
+                            href: 'http://www.qt.io/application-development/'
+                            text: 'Qt for Application Development'
+                        }
+                    }
+                    P { text: 'アプリケーション開発の商用ライセンスはこちらから。' }
+                    Div {
+                        _class: 'row'
+                        Div {
+                            _class: '6u 12u$(1024) 6u(768)'
+                            BlockQuote {
+                                style: 'font-size: small'
+                                H3 {
+                                    A {
+                                        _class: 'button icon alt fa fa-calendar'
+                                        href: 'http://www.qt.io/download-eval-for-applications-step-2/'
+                                        text: '試用版のダウンロード'
+                                        target: '_blank'
+                                    }
+                                }
+                                Text { text: '30日間の無償トライアルが可能です。' }
+                            }
+                        }
+                        Div {
+                            _class: '6u 12u$(1024) 6u(768)'
+                            BlockQuote {
+                                style: 'font-size: small'
+                                H3 {
+                                    A {
+                                        _class: 'button icon alt fa fa-shopping-cart'
+                                        href: 'https://www.qt.io/buy-product/?pid=7051'
+                                        text: 'オンラインで購入する'
+                                        target: '_blank'
+                                    }
+                                }
+                                Text { text: '開発者単位、毎月のサブスクリプションになります。' }
+                            }
+                        }
+                    }
+                    H2 {
+                        _id: 'qt-for-device-creation'
+                        I { _class: 'fa fa-hdd-o fa-fw' }
+                        A {
+                            href: 'http://www.qt.io/qt-for-device-creation/'
+                            text: 'Qt for Device Creation'
+                        }
+                    }
+                    P { text: '組み込み機器開発用の包括的なパッケージです。' }
+                    Div {
+                        _class: 'row'
+                        Div {
+                            _class: '6u 12u$(1024) 6u(768)'
+                            BlockQuote {
+                                style: 'font-size: small'
+                                H3 {
+                                    A {
+                                        _class: 'button icon alt fa fa-calendar'
+                                        href: 'http://www.qt.io/request-eval-for-devices-step-2/'
+                                        text: '試用版のダウンロード'
+                                        target: '_blank'
+                                    }
+                                }
+                                Text { text: '30日間の無償トライアルが可能です。' }
+                            }
+                        }
+                        Div {
+                            _class: '6u 12u$(1024) 6u(768)'
+                            BlockQuote {
+                                style: 'font-size: small'
+                                H3 {
+                                    A {
+                                        _class: 'button icon alt fa fa-usd'
+                                        href: 'http://www.qt.io/contact-us/'
+                                        text: '購入に関する問い合わせ'
+                                        target: '_blank'
+                                    }
+                                }
+                                Text { text: '詳細は直接お問い合わせ下さい。' }
                             }
                         }
                     }
