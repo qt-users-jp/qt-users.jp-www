@@ -14,5 +14,9 @@ ListModel {
         href: "https://relog.booth.pm/items/64657"
         image: "https://s.booth.pm/c/f_620/48d0f687-6442-4b33-83da-2de0c72f5a1b/i/64657/146a1744-f1ef-43e5-8857-5ca4ec28ddf5.jpg"
     }
+    ListElement {
+        href: "https://relog.booth.pm/items/122098"
+        image: "https://s.booth.pm/48d0f687-6442-4b33-83da-2de0c72f5a1b/i/122098/ce94cfc1-3bf2-41bd-8c1a-224cf24f9cc6.png"
+    }
 }
 
