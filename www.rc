@@ -1,8 +1,0 @@
-{
-    "listen": { "address": "*", "port": 8008 }
-    , "contents": { "*": "/home/silk/jp/qt-users/www/frontend/" }
-    , "storage": { "path": "/home/silk/jp/qt-users/www/database/" }
-    , "silk": { "tasks": [ "/home/silk/jp/qt-users/www/backend/events/events_backend.qml" ] }
-    , "cache": { "qml": true }
-    , "deflate": { "excludes": ["video/*"] }
-}
