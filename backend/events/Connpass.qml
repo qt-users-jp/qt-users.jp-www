@@ -14,7 +14,7 @@ EventService {
                 var event = list[i]
                 event.starts_at = event.started_at
                 event.ends_at = event.ended_at
-                event.venue_address = event.title
+                event.venue_name = event.place
                 event.venue_address = event.address
                 event.venue_latitude = event.lat
                 event.venue_longitude = event.lon
