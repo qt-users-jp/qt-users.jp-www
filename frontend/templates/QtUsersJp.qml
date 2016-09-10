@@ -370,10 +370,10 @@ Html {
                                     P {
                                         A {
                                             _class: 'button fit'
-                                            href: '%1/tickets/new'.arg(model.event_url)
+                                            href: model.event_url
 
                                             target: '_blank'
-                                            text: '申し込む'
+                                            text: '申し込みサイトへ'
                                         }
                                     }
                                 }

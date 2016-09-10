@@ -77,8 +77,8 @@ QtUsersJp {
                                         A {
                                             enabled: model.service_type_id === 1
                                             _class: 'button alt fit'
-                                            href: '%1/tickets/new'.arg(model.event_url)
-                                            text: '%1 に申し込む'.arg(model.title)
+                                            href: model.event_url
+                                            text: '%1 の申し込みサイトへ'.arg(model.title)
                                             target: '_blank'
                                         }
                                     }
