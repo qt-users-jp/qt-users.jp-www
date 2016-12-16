@@ -4,7 +4,7 @@ EventService {
     id: root
     function retrieve(group) {
         var request = new XMLHttpRequest()
-        request.open('GET', 'http://connpass.com/api/v1/event/?series_id=%1'.arg(group), false)
+        request.open('GET', 'https://connpass.com/api/v1/event/?series_id=%1'.arg(group), false)
         request.send()
 
         try {
