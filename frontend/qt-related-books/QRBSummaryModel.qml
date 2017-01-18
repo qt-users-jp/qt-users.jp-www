@@ -3,8 +3,8 @@ import QtQml.Models 2.1
 
 ListModel {
     ListElement {
-        href: "http://index.ascii.jp/5912/"
-        image: "http://index.ascii.jp/ss/cover/bookcover/200/978-4-04-891512-0.jpg"
+        href: "http://asciimw.jp/search/mode/item/cd/311839700000"
+        image: "http://asciimw.jp/search/img-item/978-4-04-891512-0.jpg"
     }
     ListElement {
         href: "https://relog.booth.pm/items/269707"
