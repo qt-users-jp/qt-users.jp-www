@@ -52,7 +52,27 @@ QtUsersJp {
                         I { _class: 'fa fa-jpy fa-fw' }
                         Text { text: 'コマーシャル版に関する問い合わせ' }
                     }
-                    P { text: '以下の日本国内の代理店へお問い合わせください。' }
+                    Div {
+                        _class: '6u 12u$(1024) 6u(768)'
+                        BlockQuote {
+                            style: 'font-size: small'
+                            H3 {
+                                A {
+                                    _class: 'button icon alt fa fa-building-o'
+                                    href: 'https://www.qt.io/jp/'
+                                    text: 'The Qt Company Japan'
+                                    target: '_blank'
+                                }
+                            }
+                            Text { text: '〒 104-0031<br />
+東京都中央区京橋 2-12-9<br />
+55-1京橋 501<br />
+電話 ： 03-6264-4500<br />
+E-mail ： <a href="mailto:japan@qt.io">japan@qt.io</a>'
+                            }
+                        }
+                    }
+                    P { text: 'もしくは以下の日本国内の代理店へお問い合わせください。' }
                     Div {
                         _class: 'row'
                         Div {
