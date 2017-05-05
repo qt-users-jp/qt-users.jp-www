@@ -43,9 +43,9 @@ QtObject {
     function retrieve() {
         connpass.retrieve('2492')
         doorkeeper.retrieve('qt-users')
-        zusaar.retrieve('owner_id=agxzfnp1c2Fhci1ocmRyFQsSBFVzZXIiCzE5NDkxNzc2X3R3DA')
-        zusaar.retrieve('owner_id=agxzfnp1c2Fhci1ocmRyHAsSBFVzZXIiEjEwMDAwMDcyOTYzMzc1NF9mYgw')
-        zusaar.retrieve('owner_id=agxzfnp1c2Fhci1ocmRyFgsSBFVzZXIiDDExOTAzOTE2N190dww')
+//        zusaar.retrieve('owner_id=agxzfnp1c2Fhci1ocmRyFQsSBFVzZXIiCzE5NDkxNzc2X3R3DA')
+//        zusaar.retrieve('owner_id=agxzfnp1c2Fhci1ocmRyHAsSBFVzZXIiEjEwMDAwMDcyOTYzMzc1NF9mYgw')
+//        zusaar.retrieve('owner_id=agxzfnp1c2Fhci1ocmRyFgsSBFVzZXIiDDExOTAzOTE2N190dww')
         atnd.retrieve('keyword=Qt勉強会')
         atnd.retrieve('keyword=Qt%20＠福岡')
     }
